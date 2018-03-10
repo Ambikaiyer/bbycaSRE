@@ -10,8 +10,8 @@ permissions:
     group: ec2-user
 hooks:
   BeforeInstall:
-    - location: /beforeinstall.sh
+    - location: Scripts/beforeinstall.sh
     - timeout: 180
   AfterInstall:
-    - location: /afterinstall.sh
+    - location: Scripts/afterinstall.sh
       timeout: 180
